@@ -1,0 +1,199 @@
+
+body{
+    background-color: rgb(66, 66, 61);
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    padding: 4% 0;
+}
+
+#form {
+    background-color: rgb(239, 236, 224);
+    margin: 7% 20%;
+    padding-bottom: 1%;
+    border-radius: 1%;
+    box-sizing: border-box;
+    border: 3px solid black;
+    box-shadow: inset 4px 4px 8px 0 rgb(58, 59, 53);
+}
+
+.fieldset {
+    margin: 6% 5%;
+}
+
+legend {
+    font-size: x-large;
+}
+
+.input {
+    margin: 4%;
+}
+
+input {
+    padding: 2% ;
+    width: 35%;
+}
+
+h2 {
+    margin: 4%
+}
+
+button {
+    margin: 4% 40%;
+    padding: 2% 4%;
+    font-size: large;
+    font-weight: bold;  
+    border-radius: 4%;
+    box-shadow: inset 15px 15px 8px 0 rgb(171, 171, 171);
+    transition: transform 0.2s ease;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+#output {
+    background-color: rgb(181, 175, 152);
+    margin: 7% 20%;
+    padding-bottom: 1%;
+    border-radius: 1%;
+    box-sizing: border-box;
+    border: 3px solid black;
+    box-shadow: 8px 4px 8px 0 rgb(227, 236, 191);
+}
+
+.output {
+    background-color: rgb(181, 175, 152);
+}
+
+.resume-content {
+    margin: 4% 10%;
+}
+
+.name {
+    text-decoration: underline;
+    text-align: center;
+    font-size: x-large;
+}
+
+.pi {
+    text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: x-large;
+}
+
+#edit {
+    background-color: transparent;
+    box-shadow: inset 15px 15px 8px 0 rgb(227, 236, 191);
+}
+
+#btnId {
+    display: flex;
+    gap: 25%;
+    margin: 2% 25%;
+    max-width: 40%;
+    font-size: large;
+    font-weight: bold;  
+    border: 3px solid rgb(64, 61, 61);
+    padding: 3%;
+    box-shadow: 8px 4px 8px 0 rgb(227, 236, 191);
+    
+}
+
+@media (min-width: 316px) and (max-width: 768px) {
+    h1 {
+        text-align: center;
+        text-decoration: underline;
+        padding: 4% 0;
+        font-size: large;
+    }
+    
+    #form {
+        margin: 4% 4%;
+        border-radius: 1%;
+        box-sizing: border-box;
+        border: 1px solid black;
+    }
+    
+    .fieldset {
+        margin: 6% 5%;
+    }
+    
+    legend {
+        font-size: large;
+    }
+    
+    .input {
+        margin: 4%;
+    }
+    
+    input {
+        padding: 2% ;
+        width: 75%;
+    }
+
+    #skills {
+        width: 100%;
+    }
+    #exp {
+        width: 100%;
+    }
+ 
+    h2 {
+        margin: 4%;
+        font-size: large; 
+    }
+    
+    button {
+        margin: 6% 35%;
+        padding: 2% 4%;
+        font-size: small;
+        font-weight: bold;  
+        border-radius: 4%;
+    }
+    
+    #output {
+        margin: 6% 4%;
+        border-radius: 1%;
+        box-sizing: border-box;
+        border: 1px solid black;
+    }
+    
+    .output {
+        background-color: rgb(235, 234, 230);
+    }
+    
+    .resume-content {
+        margin: 4% 10%;
+    }
+    
+    .name {
+        text-decoration: underline;
+        text-align: center;
+        font-size: large;
+    }
+    
+    .pi {
+        text-align: center;
+        font-size: small;
+    }
+    
+    h3 {
+        text-decoration: underline;
+        font-size: large;
+    }
+
+    #btnId {
+        display: grid;
+        margin: 2% 25%;
+        border: 3px solid rgb(64, 61, 61);
+        padding: 7%;
+        box-shadow: 8px 4px 8px 0 rgb(227, 236, 191);
+        
+    }
+}

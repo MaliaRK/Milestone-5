@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shareable Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" id="form">
+        <h1>SHAREABLE RESUME</h1>
+        <Fieldset class="fieldset"><legend>Personal Information</legend><br>
+            <label for="username">Resume URL</label>
+            <input type="text" id="username" name="username" required>
+            <div class="input">
+                <h3>Name:</h3>
+                <input type="text" id="name" required>
+                <h3>Email:</h3>
+                <input type="email" id="email" required>
+                <h3>Phone:</h3>
+                <input type="tel" id="phone" placeholder="+92" required>
+            </div>
+        </Fieldset>
+        <Fieldset class="fieldset"><legend>Education</legend>
+            <div class="input">
+                <h3>Degree:</h3>
+                <input type="text" id="degree" required>
+                <h3>Institute:</h3>
+                <input type="text" id="ins" required>
+                <h3>Year:</h3>
+                <input type="tel" id="year" required>
+            </div>
+        </Fieldset>
+        <Fieldset class="fieldset"><legend>Skills</legend>
+            <div class="input">
+                <textarea rows="6" cols="40" id="skills" required></textarea> 
+            </div>
+        </Fieldset>
+        <Fieldset class="fieldset"><legend>Work Experience</legend>
+            <div class="input">
+                <textarea rows="6" cols="40" id="exp" required></textarea>
+            </div>
+        </Fieldset>
+        <h2>Reference: <input type="text" class="input" id="ref"></h2>
+        <button type="submit">GENERATE</button>
+    </form>
+    <div id="output"></div>
+    <script src="script.js"></script>
+</body>
+</html>
